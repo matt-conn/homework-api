@@ -1,3 +1,29 @@
 body {
-    color: red;
+    text-align: center;
+}
+
+h3 {
+    color: #4169e1;
+}
+
+ul {
+    list-style: none;
+}
+
+.inputs {
+    background: rgb(94, 162, 184);
+    width: 50%;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+#classes {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.class-card {
+    background: rgb(169, 203, 214);
+    margin: 10px;
+    padding: 10px;
 }

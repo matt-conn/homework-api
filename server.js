@@ -46,7 +46,7 @@ MongoClient.connect(url, { useUnifiedTopology: true })
         })
         
         app.listen(process.env.PORT || PORT, () => {
-            console.log(`The server is now running on port ${PORT}. Go catch it!`)
+            // console.log(`The server is now running on port ${PORT}. Go catch it!`)
         })
     })
     .catch(error => console.log(error))

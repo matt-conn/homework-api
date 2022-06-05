@@ -2,23 +2,41 @@
 <html lang="en">
 
     <head>
-        <title>Page Title</title>
+        <title>100Devs Homework API</title>
 
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- <link rel="stylesheet" href="public/css/styles.css"> -->
         <link rel="stylesheet" href="/css/styles.css">
     </head>
 
     <body>
 
-        <h1>100Devs Homework API</h1>
+        <h1>100Devs Homework</h1>
+        
+        <h2>Search for Class Information</h2>
 
-        <h2>class list</h2>
-        <button id="all-classes">click me</button>
+        <h3>Can only search for Classes 1-5 right now.</h3>
+        
+        <h3>Check console for full set of available data (motivation links, homework, submission links, etc.)</h3>
 
-        <!-- <script src="public/js/main.js"></script> -->
+        <h4>Optimizations: 
+        <ul>
+            <li>add remaining 100Devs class data to database</li>
+            <li>convert this website into documentation page with examples</li>
+            <li>clear results when a new search is started</li>
+            <li>the same thing we do every night, try to take over the world</li>
+        </ul>   
+        
+        <div class="inputs">
+            <input type="text" id="class-search-input" placeholer="Numbers only">
+            <button id="class-search-btn">search by class number</button>
+            <br>
+            <button id="all-classes-btn">click me for all classes</button>
+        </div>
+        
+        <div id="classes"></div>
+
         <script src="/js/main.js"></script>
     </body>
 
